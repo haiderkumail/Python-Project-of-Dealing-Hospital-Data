@@ -1,0 +1,17 @@
+Explanation of Key Sections:
+
+Data Reading: The read_csv and read_txt functions handle reading the hospital data and disease data, respectively.
+Cosine Similarity Calculation: The function calculates the cosine similarity only if valid data is available.
+Variance Calculation: Variance is calculated based on cancer admissions data extracted from the TXT file.
+Structured Output: The results are printed clearly with headers to identify each output section.
+
+Note:
+
+Ensure your CSV and TXT files are correctly formatted to avoid reading errors.
+The cosine similarity should not be zero if both input lists have meaningful values. If they are still zero, check the content of the files for valid data.
+If any issues persist, please verify the data in your CSV and TXT files and share any specific details or examples if needed.
+
+Run Code:
+
+Open the "python.py" file in any ide or code editor and run it simply. Just keep one thing that the CSV and TXT file should be in
+the same directory where your "python.py" file is present. 
